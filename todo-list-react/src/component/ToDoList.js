@@ -254,6 +254,7 @@ const TodoList = () => {
                 <img
                   src="https://cdn-icons-png.flaticon.com/128/1159/1159633.png"
                   className="edit"
+                  alt ="img"
                   data-id={task.id}
                   onClick={() => handleEditTask(task.id)}
                 />
@@ -261,6 +262,7 @@ const TodoList = () => {
                 <img
                   src="https://cdn-icons-png.flaticon.com/128/3096/3096673.png"
                   className="delete"
+                  alt ="img"
                   data-id={task.id}
                   onClick={() => handleDeleteTask(task.id)}
                 />
