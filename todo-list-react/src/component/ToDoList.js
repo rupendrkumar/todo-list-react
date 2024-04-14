@@ -276,23 +276,23 @@ const TodoList = () => {
             <button className="dropbtn">Filter</button>
             <div className="dropdown-content">
               {/* Filter option: All */}
-              <a id="all" onClick={() => handleFilterChange("all")}>
+              <button id="all" onClick={() => handleFilterChange("all")}>
                 All
-              </a>
+              </button>
               {/* Filter option: Uncompleted */}
-              <a
+              <button
                 id="rem"
                 onClick={() => handleFilterChange("uncompleted")}
               >
                 Uncompleted
-              </a>
+              </button>
               {/* Filter option: Completed */}
-              <a
+              <button
                 id="com"
                 onClick={() => handleFilterChange("completed")}
               >
                 Completed
-              </a>
+              </button>
             </div>
           </div>
 
